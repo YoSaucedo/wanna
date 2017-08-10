@@ -44,6 +44,7 @@ function createWindow() {
     ({ width, height } = electron.screen.getPrimaryDisplay().size);
   }
   win = new BrowserWindow({
+    frame:    false,
     minWidth: 1024,
     minHeight: 768,
     width,
